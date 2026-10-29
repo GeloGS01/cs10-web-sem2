@@ -1,0 +1,18 @@
+{
+  "name": "CS10 Web (Sem2)",
+  // The default Codespaces image: already cached on GitHub's machines, so it starts fast
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      // Live Preview: shows your web page next to the code and updates as you type
+      "extensions": ["ms-vscode.live-server"],
+      "settings": {
+        "files.autoSave": "afterDelay",
+        "editor.fontSize": 16,
+        "terminal.integrated.fontSize": 15,
+        "editor.wordWrap": "on",
+        "livePreview.defaultPreviewPath": "/index.html"
+      }
+    }
+  }
+}
